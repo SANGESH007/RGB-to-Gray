@@ -9,6 +9,8 @@ This program is an implementation of the paper published in [click here](https:/
 
 
 ## Output Image:
-![Output Image](https://github.com/SANGESH007/RGB-to-Gray/assets/77070030/80fa878d-5bc6-4c73-8930-52b4c1cd9928)
+![Output Image](https://github.com/SANGESH007/RGB-to-Gray/assets/77070030/0ad0c1f7-9e71-4093-9473-ed6b975116df)
+
+
 
 
