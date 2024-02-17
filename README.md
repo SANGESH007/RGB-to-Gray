@@ -1,1 +1,14 @@
 # RGB-to-Gray
+This program converts RGB images to Grayscale images. The image pixel values are first converted to hex values using MATLAB. Then the hex values are processed using Verilog in Xilinx ISE Design Suite. The processed hex values are then converted back to the image.
+This program is an implementation of the paper published in [click here](https://pdf.sciencedirectassets.com/280203/1-s2.0-S1877050920X00093/1-s2.0-S187705092031200X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD%2FPhy5tSxTYDlMlT7%2F1gSfG00gsmdGjRiPvIR8ISFeXgIgBDr3IJYYRFLQHLA222Wdet9MeMiMfpwFGAmSJbBUJ%2F0quwUIv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDDoAoW1OG6SSuZsSFiqPBRKZZlVRFNLq0RUxllSoGqnnUA3mEyEw6V0%2BefSMS7u2rLV086btHQMXVO4lZ3XJdmueBm4%2FbnNqE9xMd0N2JchdJAaVl38Fl2fj6jCF5b3bHJPqif3lJLDR65zOnCqa9UQ%2FUMl6JZ6Y8GK5wByh5o15GiF6ZFcN4LOMJEthutmaWf8EZtFLiXqJyJbHSdhiRDpZ%2FlITygZFjV0OibIzoFFZSph7tYvMGRu%2FEeXZzQy9OAjlvRXyDFD8XxsDJ1SosfBLYKUdHGeUt7%2BvngrYjRBc%2FEwL%2FDYNUl6ukW9xjCZ7Kjw998uqKWd9frYaxK0wqqyXRUdhZ%2FG32rZZuXBQGdHxq6nerefN2HX2EKgblQQsh1upf5nIuTLp5ux6LB7twTPLFddKme1Jnq93mV3tMgq1RJdVaD1AQADGGwyK%2BBpRtbDmaRhvf%2F6Uu8nGmFPENOrcEmCLLTd68Dhjz6VFaeQ330iRkZqjAMtSD4bQwrDNUoyjS82FDijKNgO50QaQvJj9kXBb%2BRh5BxSHAi1Oy7YM7FgO9urwYnOphocV%2B3YozzhvGRN3etnzj%2FU4rr580R9BIJcQqmi9zkKaijVt6LwnhbFRYMoc7eTs1Q%2Bfi2bNyqEITxCWTHctoIEwYngbUb19m9RtKTLv61Hw1M7E1Irjl7af%2FmLeQY2ib0pG2IoBrQ8cDgkO3%2FqfbEnzkk%2F3pkXKR%2FMZc%2FgNmRxLFl3CpqVsHOAwd5CeR0q2euzMl23wm7pWhs%2BXGYkZU102nNc0GRred3EVynfnmiwLP5686ddLvUMXUgJlifSuivM2fp5pXuep86CW12t4M%2BWRc810bFMLGZZ6LlM1UX39SForgXJYaWhSD93BLY2u28SfFpYwj8W9rgY6sQGt59unc7RM05%2BQiQXVY2OstJdWR0CF0Sk%2Fjrj2yLnetQiVpeYvknrq0x4UBSOYNkMa6lFZFByFXgC9nUAeQ0vAR%2B%2FIw4R4cCaxZNBIfcXIuWeruXBEkqp6jwjKlfzJoncGWMZDhGFACCLKJFbIG6G0HS%2BUvhkOnIGlAFN5vMV5%2BM1LPrxRWuhumiMnhWHs%2FYzh%2F5xvUJTYc2o6nABT0KzFo5RLd0sv3bKhkinzXdOySso%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240216T133513Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRKYDVKL7%2F20240216%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=14081c4578ca1ca7bd0206a3a48f62112498d3ddd1601e5d7c08b8edcee8d6f4&hash=f2d33efd7df0d194bac85562501c58bb9e99754d7cb1e06a0295b2eb4530662b&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S187705092031200X&tid=spdf-ca4925ac-65bc-473f-b505-d179386e4a73&sid=ff0539db5bb18443719889f-19aeacae84f5gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=130c5b51565457035305&rr=85662c2adafc7e67&cc=in)
+
+## Input Image:
+
+
+![Input image](https://github.com/SANGESH007/RGB-to-Gray/assets/77070030/99e043c0-5bd0-486a-a842-e45fd9c42288)
+
+
+## Output Image:
+![Output Image](https://github.com/SANGESH007/RGB-to-Gray/assets/77070030/80fa878d-5bc6-4c73-8930-52b4c1cd9928)
+
+
